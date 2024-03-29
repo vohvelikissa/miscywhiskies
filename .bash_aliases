@@ -19,6 +19,7 @@ alias clstmux='tmux; c'
 alias tmux='clstmux'
 alias helpless='help | less'
 alias w3mad='w3m $(cat changethisname.txt)'
+alias updatediscord='~/projects/discordupdater/updatemydiscordgoddammit.sh'
 #aliases that are actually functions
 overthewire() {
 	ssh bandit$1@bandit.labs.overthewire.org -p 2220
