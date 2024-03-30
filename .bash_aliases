@@ -19,7 +19,7 @@ alias clstmux='tmux; c'
 alias tmux='clstmux'
 alias helpless='help | less'
 alias w3mad='w3m $(cat changethisname.txt)'
-alias updatediscord='~/projects/discordupdater/updatemydiscordgoddammit.sh'
+alias updatediscord='~/projects/bashshit/discordupdater/updatemydiscordgoddammit.sh'
 #aliases that are actually functions
 linesofcode() {
 	cat $(find $1 | grep $2) | wc -l
