@@ -1,4 +1,6 @@
+alias google-chrome='firefox'
 alias firefox='brave-browser'
+alias brave-browser='tor-browser'
 alias whythefuckaminothearinganysoundplsfix='systemctl --user restart pulseaudio'
 alias cls='clear'
 alias snakegame='~/Games/textsnake_linux_amd64'
@@ -31,4 +33,10 @@ overthewire() {
 }
 tattach() {
 	tmux attach -t $1
+}
+tor-browser() {
+	perkele=$(pwd)
+	cd ~/tools/tor-browser/
+	./start-tor-browser.desktop $1
+	cd $perkele
 }
