@@ -1,4 +1,5 @@
 alias google-chrome='firefox'
+alias discord='firejail discord'
 alias firefox='brave-browser'
 alias brave-browser='tor-browser'
 alias whythefuckaminothearinganysoundplsfix='systemctl --user restart pulseaudio'
@@ -25,6 +26,7 @@ alias updatediscord='~/projects/bashshit/discordupdater/updatemydiscordgoddammit
 alias updateintellij='~/projects/bashshit/intellijupdater/updateintellij.sh'
 alias updatetorbrowser='~/projects/bashshit/torupdater/updatetorforfuckssake.sh'
 alias intellij='~/tools/intellij/bin/idea.sh'
+alias steam='flatpak run com.valvesoftware.Steam'
 #aliases that are actually functions
 linesofcode() {
 	cat $(find $1 | grep $2) | wc -l
