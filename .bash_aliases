@@ -28,6 +28,7 @@ alias updatetorbrowser='~/projects/bashshit/torupdater/updatetorforfuckssake.sh'
 alias intellij='~/tools/intellij/bin/idea.sh'
 alias steam='flatpak run com.valvesoftware.Steam'
 alias godot='~/tools/godot/godot'
+alias brave='firejail /bin/brave-browser'
 #aliases that are actually functions
 linesofcode() {
 	cat $(find $1 | grep $2) | wc -l
